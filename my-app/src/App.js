@@ -5,7 +5,10 @@ import './App.css';
 import { Route } from 'react-router-dom';
 
 // components 👇
-import { Home, About, Contact, NavBar } from './Navigation';
+import NavBar from './Navigation/NavBar';
+import Home from './Navigation/Home';
+import About from './Navigation/About';
+import Contact from './Navigation/Contact';
 
 function App() {
   return (
