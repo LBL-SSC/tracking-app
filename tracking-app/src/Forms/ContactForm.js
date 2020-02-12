@@ -10,7 +10,6 @@ const ContactForm = () => {
                 <form>
                     
                     <label>
-                        First Name:
                         <input 
                             type='text'
                             name='name'
@@ -18,8 +17,9 @@ const ContactForm = () => {
                         />
                     </label>
 
+                    <br></br>
+
                     <label>
-                        Last Name:
                         <input 
                             type='text'
                             name='name'
@@ -27,8 +27,9 @@ const ContactForm = () => {
                         />
                     </label>
 
+                    <br></br>
+
                     <label>
-                        Email:
                         <input 
                             type='email'
                             name='email'
@@ -36,18 +37,18 @@ const ContactForm = () => {
                         />
                     </label>
 
+                    <br></br>
+
                     <label>
-                        Subject:
                         <textarea 
                             name='subject'
-                            placeholder='Thoughts. Questions. Feedback.'></textarea>
+                            placeholder='Thoughts'></textarea>
                         <input 
                             type='submit'
                             value='Submit'
                         />
                     </label>
 
-                    <button>Send</button>
                 </form>
             </div>
         </div>
